@@ -18,7 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff",
-        "permissions": ["INTERNET"]
+        "permissions": [
+          "android.permission.INTERNET"
+        ]
+      },
+      "package": "com.seemabhayana.pratham"
+    },
+    "extra": {
+      "android": {
+        "permissions": [
+          "android.permission.INTERNET"
+        ]
       }
     },
     "web": {
